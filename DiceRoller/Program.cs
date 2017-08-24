@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DiceRoller.PCL;
+using System;
+using System.Collections.Generic;
 
 namespace DiceRoller
 {
@@ -6,7 +8,7 @@ namespace DiceRoller
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
