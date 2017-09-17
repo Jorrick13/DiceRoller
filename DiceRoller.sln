@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiceRoller", "DiceRoller\DiceRoller.csproj", "{41BE1904-DDB0-4A8D-B545-57D639DC53A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRoller.PCL", "DiceRoller.PCL\DiceRoller.PCL.csproj", "{131DB420-A398-41E9-84E5-4D81CA2C22B3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRoller.Tests", "DiceRoller.Tests\DiceRoller.Tests.csproj", "{921A93F7-7207-4331-86D0-AE5F1B22E501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parser", "Parser\Parser.csproj", "{501EAA14-D147-44F2-9992-AE19D9414687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRoller.DiceLogic", "DiceRoller.DiceLogic\DiceRoller.DiceLogic.csproj", "{BB0109A2-7EAB-4B40-843C-1D06D59DF780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +21,23 @@ Global
 		{41BE1904-DDB0-4A8D-B545-57D639DC53A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41BE1904-DDB0-4A8D-B545-57D639DC53A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41BE1904-DDB0-4A8D-B545-57D639DC53A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{131DB420-A398-41E9-84E5-4D81CA2C22B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{131DB420-A398-41E9-84E5-4D81CA2C22B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{131DB420-A398-41E9-84E5-4D81CA2C22B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{131DB420-A398-41E9-84E5-4D81CA2C22B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{921A93F7-7207-4331-86D0-AE5F1B22E501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{921A93F7-7207-4331-86D0-AE5F1B22E501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921A93F7-7207-4331-86D0-AE5F1B22E501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921A93F7-7207-4331-86D0-AE5F1B22E501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501EAA14-D147-44F2-9992-AE19D9414687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501EAA14-D147-44F2-9992-AE19D9414687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501EAA14-D147-44F2-9992-AE19D9414687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501EAA14-D147-44F2-9992-AE19D9414687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0109A2-7EAB-4B40-843C-1D06D59DF780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0109A2-7EAB-4B40-843C-1D06D59DF780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0109A2-7EAB-4B40-843C-1D06D59DF780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0109A2-7EAB-4B40-843C-1D06D59DF780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C21BD3D1-9E52-4191-90C8-E7E6C7511713}
 	EndGlobalSection
 EndGlobal

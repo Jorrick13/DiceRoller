@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace DiceRoller.PCL
+namespace DiceRoller.DiceLogic
 {
     public class Die
     {
 
-#region Properties
+        #region Properties
         private static Random rand;
         private int seed { get; set; }
 
@@ -42,7 +39,7 @@ namespace DiceRoller.PCL
             this.max = max;
             this.seed = seed;
             //this.modifier = modifier;
-            if(seed > 0)
+            if (seed > 0)
             {
                 rand = new Random(seed);
             }
@@ -55,7 +52,7 @@ namespace DiceRoller.PCL
 
         #endregion Constructors
 
-#region Methods
+        #region Methods
 
         /// <summary>
         /// Rolls the die
@@ -65,7 +62,7 @@ namespace DiceRoller.PCL
             currentValue = rand.Next(min, max + 1);// + modifier;
         }
 
-#endregion Methods
+        #endregion Methods
 
         /// <summary>
         /// Adds the current value of two dice together

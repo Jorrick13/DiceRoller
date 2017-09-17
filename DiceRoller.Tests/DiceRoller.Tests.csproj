@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DiceRoller.PCL\DiceRoller.PCL.csproj">
-      <Project>{131DB420-A398-41E9-84E5-4D81CA2C22B3}</Project>
-      <Name>DiceRoller.PCL</Name>
+    <ProjectReference Include="..\DiceRoller.DiceLogic\DiceRoller.DiceLogic.csproj">
+      <Project>{bb0109a2-7eab-4b40-843c-1d06d59df780}</Project>
+      <Name>DiceRoller.DiceLogic</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

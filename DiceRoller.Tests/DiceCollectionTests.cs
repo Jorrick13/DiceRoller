@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using NUnit.Framework;
 using System.Collections.Generic;
-using DiceRoller.PCL;
+using DiceRoller.DiceLogic;
 
 namespace DiceRoller.Tests
 {

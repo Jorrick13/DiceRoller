@@ -1,4 +1,4 @@
-﻿using DiceRoller.PCL;
+﻿using DiceRoller.DiceLogic;
 using NUnit.Framework;
 using System.Linq;
 
@@ -12,7 +12,7 @@ namespace DiceRoller.Tests
         [Test]
         public void MaxTest()
         {
-            var die = new PCL.Die(6);
+            var die = new Die(6);
 
             var results = new System.Collections.Generic.List<int>();
 
@@ -32,7 +32,7 @@ namespace DiceRoller.Tests
         [Test]
         public void MinTest()
         {
-            var die = new PCL.Die(12, 3);
+            var die = new Die(12, 3);
 
             var results = new System.Collections.Generic.List<int>();
 

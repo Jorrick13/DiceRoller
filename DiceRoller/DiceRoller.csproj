@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DiceRoller.PCL\DiceRoller.PCL.csproj" />
+    <ProjectReference Include="..\DiceRoller.DiceLogic\DiceRoller.DiceLogic.csproj" />
   </ItemGroup>
 
 </Project>

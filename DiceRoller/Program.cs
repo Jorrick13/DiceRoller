@@ -1,4 +1,4 @@
-﻿using DiceRoller.PCL;
+﻿using DiceRoller.DiceLogic;
 using System;
 using System.Collections.Generic;
 

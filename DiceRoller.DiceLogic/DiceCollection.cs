@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DiceRoller.PCL
+namespace DiceRoller.DiceLogic
 {
     public class DiceCollection
     {
@@ -89,7 +87,7 @@ namespace DiceRoller.PCL
             return Dice.Sum(d => d.currentValue) + Modifier;
         }
 
-#endregion Methods
+        #endregion Methods
 
         //Suck it Java
         #region Operator Overloads 
@@ -102,7 +100,7 @@ namespace DiceRoller.PCL
         /// <returns></returns>
         public static int operator +(DiceCollection diceCollection1, DiceCollection diceCollection2)
         {
-            return diceCollection1.Sum() + diceCollection2.Sum(); 
+            return diceCollection1.Sum() + diceCollection2.Sum();
         }
 
         /// <summary>
@@ -204,7 +202,7 @@ namespace DiceRoller.PCL
             return value - diceCollection.Sum();
         }
 
-#endregion Operator Overloads
+        #endregion Operator Overloads
 
     }
 }
